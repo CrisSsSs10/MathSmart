@@ -1,20 +1,26 @@
-function App (){
-return <div className="container">
+import math_symbol from "./assets/math_symbol.png";
 
-
-<h1 online timer></h1>
-
-<div className="weather"></div>
-<div className="logo"></div>
-<img src=""
-<h2 firefox </h2>
-<div className="search"></div>
-<div className="icons"></div>
-<div className="outer"></div>
-<div className="activity"></div>
-<h4>recent activiry</h4>
-<div/>
-<div> className="settings" </div>
+function App() {
+  return (
+    <div className="principal">
+      <div className="parte-uno">
+        {" "}
+        <h1 className="temaprincipal">
+          MAthsmart aprende matematicas desde cero
+        </h1>
+        <p className="temasecundario">
+          {" "}
+          Una plataforma educativa con explicaciones claras, ejemplos paso a
+          paso y videos breves que te ayudaran a entender Algebra, Geometría y
+          mas.
+        </p>
+        <button className="botonprincipal">Empezar a aprender</button>
+      </div>
+      <div className="parte-dos">
+        <img src={math_symbol} />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
