@@ -43,3 +43,30 @@
   color: white;
   font-size: 1.5rem;
 }
+.secciones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.columna-izquierda,
+.columna-derecha {
+  width: 50px;
+  padding: 20px;
+}
+.columna-derecha img {
+  max-width: 100%;
+  height: auto;
+}
+.seccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.parte-uno,
+.parte-dos {
+  width: 50%;
+  padding: 20px;
+}
