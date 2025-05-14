@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Secciones from "./Secciones.jsx";
+import Temas from "./Temas.jsx";
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/slide-uno" element={<Secciones></Secciones>} />
+      <Route path="/slide-uno" element={<Secciones />} />
     </Routes>
   </BrowserRouter>
 );

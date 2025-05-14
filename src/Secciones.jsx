@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Temas from "./Temas";
 function Secciones() {
   return (
     <div className="principal">
@@ -16,7 +18,9 @@ function Secciones() {
           Haz clic en cualquier seccion y empieza a con videos explicativos,
           ejemplos faciles y consejos utiles.
         </p>
-        <button className="botonprincipal">Ir a las secciones</button>
+        <div>
+          <button className="botonprincipal">Ir a las secciones</button>
+        </div>
       </div>
     </div>
   );
