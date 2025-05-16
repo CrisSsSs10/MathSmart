@@ -10,6 +10,7 @@ createRoot(document.getElementById("root")).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/slide-uno" element={<Secciones />} />
+      <Route path="/temas" element={<Temas />} /> //
     </Routes>
   </BrowserRouter>
 );

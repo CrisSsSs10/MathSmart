@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+.principal {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cuadro-temas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-top: 30px;
+}
+.cuadro-temas div {
+  width: 200px;
+}
+.cuadro-temas img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.cuadro-temas p {
+  margin-top: 10px;
+  font-weight: bold;
+}

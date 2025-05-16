@@ -19,7 +19,9 @@ function Secciones() {
           ejemplos faciles y consejos utiles.
         </p>
         <div>
-          <button className="botonprincipal">Ir a las secciones</button>
+          <Link to="/temas">
+            <button className="botonprincipal">Ir a las secciones</button>
+          </Link>
         </div>
       </div>
     </div>
